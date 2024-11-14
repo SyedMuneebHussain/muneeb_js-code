@@ -1,4 +1,3 @@
-console.log("hello muneeb");
 let name="muneeb";
 let firstName=name;
     firstName="sohail";
@@ -12,3 +11,5 @@ let userTwo=userOne;
 userTwo.email="sohail@gmail.com";
 console.log(userOne);
 console.log(userTwo); //heap memory call by reference
+
+
