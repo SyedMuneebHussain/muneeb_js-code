@@ -1,12 +1,12 @@
-//const tinderuser=new Object();//singleton object
-const tinderuser={};//non singleton object
- tinderuser.Id="123sd";
- tinderuser.name="sohail"
- tinderuser.isloggedin=false;
- console.log(tinderuser);
- console.log(Object.keys(tinderuser));
- console.log(Object.values(tinderuser));
- console.log(tinderuser.hasOwnProperty("isloggedin"));//to check that object has a key or value
+// //const tinderuser=new Object();//singleton object
+// const tinderuser={};//non singleton object
+//  tinderuser.Id="123sd";
+//  tinderuser.name="sohail"
+//  tinderuser.isloggedin=false;
+//  console.log(tinderuser);
+//  console.log(Object.keys(tinderuser));
+//  console.log(Object.values(tinderuser));
+//  console.log(tinderuser.hasOwnProperty("isloggedin"));//to check that object has a key or value
  
  
 //  const regularuser={
@@ -26,4 +26,11 @@ const tinderuser={};//non singleton object
 // const obj4={...obj1,...obj2,...obj3};
 // console.log(obj4);
 
+ const course={
+    course:"JS in hindi",
+    price:999,
+    courseInstructor:"hitesh chaudhry"
+ }
+ const {courseInstructor:instructor}=course;
+ console.log(instructor);
  
